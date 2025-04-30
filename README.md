@@ -1,7 +1,7 @@
 # Landing page  en React
 Es una simple landing page hecha con React
 ![pantallazo app](./capturas/image.png)
-## Guía de instalación
+## Guía de instalación del repositorio en local
 1. Hacer un fork y/o clonar la app [repo](https://github.com/canodelacuadra/landing-page-react.git)
 ![fork](./capturas/fork.jpg)
 Si hacemos un fork no es necesario añadir un remoto  (porque es nuestro repositorio) y 
@@ -38,4 +38,15 @@ git commit -m "nombre del commit"
 ````shell
 git push origin master
 ````
+## Despliegue en Netlify
+No es necesario hacer el ``npm run build`` porque lo hacen ellos
+aunque podemos hacerlo si queremos verlo en local o subirlo a cualquier sitio
+- En netlify hacemos un deploy de un repo de github
+![deploy netlify](./capturas/netlify.jpg)
+-le asignamos una url disponible y le damos al deploy
+![deploy netlify](./capturas/deploy.jpg)
+
+y observamos el despliegue
+![vemos app](./capturas/desplegada.jpg)
+
 
