@@ -1,12 +1,41 @@
-# React + Vite
+# Landing page  en React
+Es una simple landing page hecha con React
+![pantallazo app](./capturas/image.png)
+## Guía de instalación
+1. Hacer un fork y/o clonar la app [repo](https://github.com/canodelacuadra/landing-page-react.git)
+![fork](./capturas/fork.jpg)
+Si hacemos un fork no es necesario añadir un remoto  (porque es nuestro repositorio) y 
+no hacemos ``git init`` a no ser que queramos reiniciar el proyecto 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. Instalamos dependencias de node 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+````shell
+npm install
+````
+3. Arrancamos el servidor del pruebas 
+````shell
+npm run dev
+````
+y saldrá por consola
+````
+> landing-page-distribuida@0.0.0 dev
+> vite
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  VITE v6.3.3  ready in 851 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+````
+4. Hacemos las modificaciones pertinentes
+5. Hacemos un commit 
+```` shell
+git add --all 
+git commit -m "nombre del commit"
+````
+6. Subimos los cambios al repositorio
+````shell
+git push origin master
+````
+
